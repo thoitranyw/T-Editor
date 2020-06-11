@@ -1,0 +1,50 @@
+.wrapper .emoji-picker {
+    width: 300px;
+    border: none;
+}
+
+.wrapper .emoji-picker .emoji-picker__search-icon {
+    display: flex;
+    font-size: 14px;
+}
+
+.wrapper .emoji-picker .emoji-picker__content {
+    padding: 5px 0;
+}
+
+.wrapper .emoji-picker .emoji-picker__search-container {
+    margin: 5px;
+}
+
+.wrapper .emoji-picker .emoji-picker__content .emoji-picker__emojis {
+    padding-left: 3px;
+}
+
+.wrapper .emoji-picker .emoji-picker__content .emoji-picker__emoji {
+    width: 27px;
+    overflow: hidden;
+}
+
+.wrapper .emoji-picker .emoji-picker__content .emoji-picker__category-name {
+    font-weight: 600;
+    color: #d2d2d2;
+    margin-bottom: 5px;
+    font-size: 11px;
+}
+
+.wrapper .emoji-picker .emoji-picker__container {
+    margin-bottom: 15px;
+}
+
+.wrapper .emoji-picker .button.emoji-picker__category-button.active {
+    color: #2f54eb;
+    border-bottom: var(--category-border-bottom-size) solid #2f54eb;
+}
+
+.wrapper .emoji-picker .emoji-picker__search:focus {
+    border: 1px solid #2f54eb;
+}
+
+.wrapper[data-popper-placement="top-end"] {
+    z-index: 999;
+}

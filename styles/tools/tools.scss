@@ -1,0 +1,23 @@
+.bajs-tool__row {
+    margin-bottom: 8px;
+    align-items: center;
+    display: flex;
+
+    &:last-child {
+        margin-bottom: 0;
+    }
+}
+
+.bajs-tool__input {
+    outline: none;
+    border: none;
+}
+
+.bajs-tool__picker {
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+    border: solid 1px #ccc;
+    border-radius: 2px;
+    cursor: pointer;
+}
