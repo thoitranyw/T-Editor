@@ -1,0 +1,27 @@
+.bajs-form-review {
+    overflow: hidden;
+    margin: 0 -12px;
+    padding: 20px 12px !important;
+    padding-bottom: 20px;
+
+    input[type='radio'] {
+        pointer-events: none;
+    }
+
+    textarea {
+        pointer-events: none;
+        border: solid 1px #ccc;
+
+        &:hover {
+            border-color: #2f54eb;
+        }
+    }
+
+    button[type='submit'] {
+        pointer-events: none;
+    }
+
+    &:hover {
+        background-color: #f4f4f4;
+    }
+}
